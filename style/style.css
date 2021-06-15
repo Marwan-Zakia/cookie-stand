@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    background-color: khaki;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header img {
+   
+    height: 100px;
+     width: 200px;
+   
+  }
+  header a {
+    text-decoration: none;
+    color:black;
+    padding: 0 20px;
+  }
+  body {
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    gap: 20px;
+    width: 960px;
+    margin: 0 auto;
+  }
+  main div :nth-child(1){
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  
+  h2 {
+ display: grid; 
+ text-transform: uppercase;
+  }
+ 
+ .make{
+     display: flex;
+     gap: 50px;
+     margin-bottom: 30px; 
+     grid-template-columns: (3, 1fr); 
+ }
+.like img { 
+    grid-template-rows: 1fr; 
+    display: grid; 
+    }
+
+    .MERCH{
+        display: grid;   
+
+    }
+        
+        p {
+            line-height: 1;
+            text-align: justify;
+            text-transform: uppercase;
+          }
+
+ h3 p {
+     line-height: 1.5;
+    text-align: justify;
+       display: flex;
+     justify-content: center;
+     text-transform: uppercase;
+          }
+
+          
+  footer {
+     display: flex;
+      align-items: center;
+      justify-content: center;
+      color: black
+     
+  } 
