@@ -393,4 +393,3 @@
   }
   makeTableFooter();
   formjs.addEventListener('submit',fromSubmit);
-
