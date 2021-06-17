@@ -1,11 +1,14 @@
 * {
     box-sizing: border-box;
     background-color: khaki;
+    font-family: sans-serif;
+
   }
   header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: linen;
   }
   
   header img {
@@ -16,7 +19,7 @@
   }
   header a {
     text-decoration: none;
-    color:black;
+    
     padding: 0 20px;
   }
   body {
@@ -34,6 +37,14 @@
   h2 {
  display: grid; 
  text-transform: uppercase;
+ 
+  }
+  h3 {
+    display: grid;
+    grid-template-columns:  1fr; 
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
   }
  
  .make{
@@ -56,6 +67,7 @@
             line-height: 1;
             text-align: justify;
             text-transform: uppercase;
+            color: lightseagreen;
           }
 
  h3 p {
@@ -69,8 +81,11 @@
           
   footer {
      display: flex;
-      align-items: center;
+     text-align: center;
       justify-content: center;
-      color: black
+      color: black;
+      background-color: lightgray;
+      width: 100%;
+     
      
   } 

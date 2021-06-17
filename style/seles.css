@@ -1,12 +1,17 @@
 
 * {
     box-sizing: border-box;
-    background-color: khaki;
+    font-family: sans-serif;
+
   }
+   
+ 
   header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgb(252, 235, 87);
+    height: 50%;
   }
   
   header img {
@@ -19,6 +24,8 @@
     text-decoration: none;
     color:black;
     padding: 0 20px;
+    font-weight: 700;
+
   }
   body {
     display: grid;
@@ -26,15 +33,23 @@
     gap: 20px;
     width: 1020 px;
     margin: 0 auto;
+    background-color: rgb(129, 160, 219);
   }
+form{
+background-color:khaki;
+color: honeydew;
 
+}
 
  
 table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    border: blue
+    border: blue;
+    background-color: khaki;
+    color: ivory;
+    
   }
   
   thead th:nth-child(1) {
@@ -59,8 +74,9 @@ table {
           
   footer {
      display: flex;
-      align-items: center;
+      text-align: center;
       justify-content: center;
-      color: black
+      color: black;
+      background-color: rgb(252, 235, 87);
      
   } 
